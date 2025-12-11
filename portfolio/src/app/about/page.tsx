@@ -269,8 +269,8 @@ export default function About() {
                   <Card className="flex-1 hover:shadow-xl transition-all duration-300 border-l-4 border-l-blue-500">
                     <CardHeader className="pb-3">
                       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-                        <CardTitle className="text-xl text-blue-600">Bachelor of Science (B.Sc in MPCS)</CardTitle>
-                        <Badge variant="outline" className="w-fit border-blue-500 text-blue-600">CGPA: 7.96</Badge>
+                        <CardTitle className="text-xl text-blue-600 dark:text-blue-400">Bachelor of Science (B.Sc in MPCS)</CardTitle>
+                        <Badge variant="outline" className="w-fit border-blue-500 text-blue-600 dark:text-blue-400">CGPA: 7.96</Badge>
                       </div>
                       <CardDescription className="text-base font-medium text-foreground">
                         Osmania University — BJR Government Degree College, Narayanaguda
@@ -299,8 +299,8 @@ export default function About() {
                   <Card className="flex-1 hover:shadow-xl transition-all duration-300 border-l-4 border-l-green-500">
                     <CardHeader className="pb-3">
                       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-                        <CardTitle className="text-xl text-green-600">Intermediate (XII)</CardTitle>
-                        <Badge variant="outline" className="w-fit border-green-500 text-green-600">Percentage: 82.3%</Badge>
+                        <CardTitle className="text-xl text-green-600 dark:text-green-400">Intermediate (XII)</CardTitle>
+                        <Badge variant="outline" className="w-fit border-green-500 text-green-600 dark:text-green-400">Percentage: 82.3%</Badge>
                       </div>
                       <CardDescription className="text-base font-medium text-foreground">
                         Sri Hari Hara Junior College, Ieeja
@@ -332,8 +332,8 @@ export default function About() {
                   <Card className="flex-1 hover:shadow-xl transition-all duration-300 border-l-4 border-l-orange-500">
                     <CardHeader className="pb-3">
                       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-                        <CardTitle className="text-xl text-orange-600">Secondary School Certificate (SSC)</CardTitle>
-                        <Badge variant="outline" className="w-fit border-orange-500 text-orange-600">CGPA: 7.2</Badge>
+                        <CardTitle className="text-xl text-orange-600 dark:text-orange-400">Secondary School Certificate (SSC)</CardTitle>
+                        <Badge variant="outline" className="w-fit border-orange-500 text-orange-600 dark:text-orange-400">CGPA: 7.2</Badge>
                       </div>
                       <CardDescription className="text-base font-medium text-foreground">
                         ZP High School, Ieeja
@@ -379,8 +379,8 @@ export default function About() {
                 <Card className="h-full hover:shadow-xl transition-all duration-300 border-l-4 border-l-blue-500">
                   <CardHeader>
                     <div className="flex items-center gap-3 mb-2">
-                      <div className="w-12 h-12 bg-blue-500/10 rounded-full flex items-center justify-center">
-                        <div className="text-blue-500 font-bold">SQL</div>
+                      <div className="w-12 h-12 bg-blue-500/10 dark:bg-blue-900/20 rounded-full flex items-center justify-center">
+                        <div className="text-blue-500 dark:text-blue-400 font-bold">SQL</div>
                       </div>
                       <div>
                         <CardTitle className="text-lg">SQL (Basic)</CardTitle>
@@ -406,8 +406,8 @@ export default function About() {
                 <Card className="h-full hover:shadow-xl transition-all duration-300 border-l-4 border-l-yellow-500">
                   <CardHeader>
                     <div className="flex items-center gap-3 mb-2">
-                      <div className="w-12 h-12 bg-yellow-500/10 rounded-full flex items-center justify-center">
-                        <div className="text-yellow-500 font-bold">Py</div>
+                      <div className="w-12 h-12 bg-yellow-500/10 dark:bg-yellow-900/20 rounded-full flex items-center justify-center">
+                        <div className="text-yellow-500 dark:text-yellow-400 font-bold">Py</div>
                       </div>
                       <div>
                         <CardTitle className="text-lg">Python Programming</CardTitle>
@@ -433,8 +433,8 @@ export default function About() {
                 <Card className="h-full hover:shadow-xl transition-all duration-300 border-l-4 border-l-purple-500">
                   <CardHeader>
                     <div className="flex items-center gap-3 mb-2">
-                      <div className="w-12 h-12 bg-purple-500/10 rounded-full flex items-center justify-center">
-                        <div className="text-purple-500 font-bold">FS</div>
+                      <div className="w-12 h-12 bg-purple-500/10 dark:bg-purple-900/20 rounded-full flex items-center justify-center">
+                        <div className="text-purple-500 dark:text-purple-400 font-bold">FS</div>
                       </div>
                       <div>
                         <CardTitle className="text-lg">Full Stack Web Development (Python)</CardTitle>

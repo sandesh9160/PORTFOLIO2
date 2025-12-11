@@ -19,7 +19,7 @@ export function Footer() {
                 <Code className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-purple-600">
+                <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400">
                   Sandesh Kenchugundi
                 </h3>
                 <p className="text-sm text-muted-foreground">Python Full Stack Developer</p>
@@ -30,14 +30,14 @@ export function Footer() {
               Passionate about clean code and exceptional user experiences.
             </p>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              <Heart className="h-4 w-4 text-red-500" />
+              <Heart className="h-4 w-4 text-red-500 dark:text-red-400" />
               <span>Building the future, one line of code at a time</span>
             </div>
           </div>
 
           {/* Quick Links */}
           <div>
-              <h4 className="text-lg font-semibold mb-6 text-purple-600">
+              <h4 className="text-lg font-semibold mb-6 text-purple-600 dark:text-purple-400">
               Quick Links
             </h4>
             <nav className="space-y-3">
@@ -88,7 +88,7 @@ export function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-semibold mb-6 text-purple-600">
+            <h4 className="text-lg font-semibold mb-6 text-purple-600 dark:text-purple-400">
               Services
             </h4>
             <div className="space-y-3">
@@ -113,7 +113,7 @@ export function Footer() {
 
           {/* Contact & Social */}
           <div>
-            <h4 className="text-lg font-semibold mb-6 text-purple-600">
+            <h4 className="text-lg font-semibold mb-6 text-purple-600 dark:text-purple-400">
               Get In Touch
             </h4>
             <div className="space-y-4 mb-6">
@@ -181,7 +181,7 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <span>© 2025 Sandesh Kenchugundi. Made with</span>
-              <Heart className="h-4 w-4 text-red-500 animate-pulse" />
+              <Heart className="h-4 w-4 text-red-500 dark:text-red-400 animate-pulse" />
               <span>using Next.js & Tailwind CSS</span>
             </div>
             <div className="flex items-center gap-6 text-sm">

@@ -135,7 +135,7 @@ export default function Services() {
                     <ul className="space-y-3 mb-8">
                       {pkg.features.map((feature, idx) => (
                         <li key={idx} className="flex items-start gap-3">
-                          <Check className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
+                          <Check className="h-5 w-5 text-green-500 dark:text-green-400 mt-0.5 flex-shrink-0" />
                           <span className="text-sm text-muted-foreground leading-relaxed">
                             {feature}
                           </span>
