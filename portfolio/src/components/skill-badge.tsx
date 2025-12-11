@@ -7,20 +7,20 @@ interface SkillBadgeProps {
 }
 
 const skillColors = {
-  Python: "text-white",
-  Django: "text-white",
-  DRF: "text-white",
-  HTML: "text-white",
-  CSS: "text-white",
-  Bootstrap: "text-white",
-  JavaScript: "text-white",
-  MySQL: "text-white",
-  SQLite: "text-white",
-  "AWS (EC2, S3, Route 53)": "text-white",
-  Git: "text-white",
-  GitHub: "text-white",
-  Postman: "text-white",
-  SMTP: "text-white",
+  Python: "text-foreground",
+  Django: "text-foreground",
+  DRF: "text-foreground",
+  HTML: "text-foreground",
+  CSS: "text-foreground",
+  Bootstrap: "text-foreground",
+  JavaScript: "text-foreground",
+  MySQL: "text-foreground",
+  SQLite: "text-foreground",
+  "AWS (EC2, S3, Route 53)": "text-foreground",
+  Git: "text-foreground",
+  GitHub: "text-foreground",
+  Postman: "text-foreground",
+  SMTP: "text-foreground",
 }
 
 export function SkillBadge({ skill }: SkillBadgeProps) {

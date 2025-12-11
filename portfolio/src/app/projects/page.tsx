@@ -147,7 +147,7 @@ export default function Projects() {
                   {/* Problem */}
                   <div>
                     <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">
-                      <Target className="h-5 w-5 text-white" />
+                      <Target className="h-5 w-5 text-foreground" />
                       Business Problem
                     </h3>
                     <p className="text-muted-foreground leading-relaxed">{project.problem}</p>
@@ -156,7 +156,7 @@ export default function Projects() {
                   {/* Solution */}
                   <div>
                     <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">
-                      <CheckCircle className="h-5 w-5 text-white" />
+                      <CheckCircle className="h-5 w-5 text-foreground" />
                       Solution Provided
                     </h3>
                     <p className="text-muted-foreground leading-relaxed">{project.solution}</p>
@@ -168,7 +168,7 @@ export default function Projects() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                       {project.features.map((feature, idx) => (
                         <div key={idx} className="flex items-start gap-3">
-                          <CheckCircle className="h-5 w-5 text-white mt-0.5 flex-shrink-0" />
+                          <CheckCircle className="h-5 w-5 text-foreground mt-0.5 flex-shrink-0" />
                           <span className="text-muted-foreground">{feature}</span>
                         </div>
                       ))}
@@ -190,13 +190,13 @@ export default function Projects() {
                   {/* Impact */}
                   <div>
                     <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
-                      <TrendingUp className="h-5 w-5 text-white" />
+                      <TrendingUp className="h-5 w-5 text-foreground" />
                       Business Impact
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                       {project.impact.map((impact, idx) => (
                         <div key={idx} className="flex items-start gap-3">
-                          <TrendingUp className="h-5 w-5 text-white mt-0.5 flex-shrink-0" />
+                          <TrendingUp className="h-5 w-5 text-foreground mt-0.5 flex-shrink-0" />
                           <span className="text-muted-foreground">{impact}</span>
                         </div>
                       ))}
