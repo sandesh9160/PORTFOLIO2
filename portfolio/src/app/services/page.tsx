@@ -13,7 +13,7 @@ const packages = [
     price: "₹3,999",
     icon: Star,
     color: "from-blue-500 to-blue-600",
-    bgColor: "from-blue-50 to-blue-100 dark:from-blue-950/20 dark:to-blue-900/20",
+    bgColor: "from-primary/10 to-primary/5",
     description: "Perfect for small businesses and personal brands looking to establish an online presence.",
     features: [
       "1-3 pages (Home, About, Contact)",
@@ -33,7 +33,7 @@ const packages = [
     price: "₹9,999",
     icon: Zap,
     color: "from-purple-500 to-purple-600",
-    bgColor: "from-purple-50 to-purple-100 dark:from-purple-950/20 dark:to-purple-900/20",
+    bgColor: "from-accent/10 to-accent/5",
     description: "Ideal for startups, shops, and institutions needing interactive features and data management.",
     features: [
       "Everything in Static Package",
@@ -54,7 +54,7 @@ const packages = [
     price: "₹14,999+",
     icon: Crown,
     color: "from-gold-500 to-yellow-600",
-    bgColor: "from-yellow-50 to-orange-100 dark:from-yellow-950/20 dark:to-orange-900/20",
+    bgColor: "from-secondary/10 to-secondary/5",
     description: "Advanced applications with custom backend, APIs, and cloud deployment for serious businesses.",
     features: [
       "Everything in Dynamic Package",
@@ -74,7 +74,7 @@ const packages = [
 
 export default function Services() {
   return (
-    <div className="min-h-screen py-16 bg-gradient-to-br from-purple-50/50 via-white to-pink-50/50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
+    <div className="min-h-screen py-16 bg-gradient-to-br from-background via-background to-muted/20">
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-16"
@@ -110,9 +110,8 @@ export default function Services() {
                   </div>
                 )}
 
-                <Card className={`h-full relative overflow-hidden transition-all duration-300 hover:shadow-2xl ${
-                  pkg.popular ? 'ring-2 ring-primary/50 shadow-lg' : 'hover:shadow-lg'
-                }`}>
+                <Card className={`h-full relative overflow-hidden transition-all duration-300 hover:shadow-2xl ${pkg.popular ? 'ring-2 ring-primary/50 shadow-lg' : 'hover:shadow-lg'
+                  }`}>
                   <CardHeader className={`bg-gradient-to-br ${pkg.bgColor} pb-8`}>
                     <div className={`w-16 h-16 rounded-full bg-gradient-to-br ${pkg.color} flex items-center justify-center mb-4 mx-auto`}>
                       <Icon className="h-8 w-8 text-white" />

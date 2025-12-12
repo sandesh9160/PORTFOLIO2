@@ -146,7 +146,7 @@ export default function Home() {
       </section>
 
       {/* Featured Projects Section */}
-      <section className="py-16 bg-white/30 dark:bg-slate-900/30">
+      <section className="py-16 bg-background/30 backdrop-blur-sm">
         <div className="container mx-auto px-4">
           <motion.div
             className="text-center mb-12"

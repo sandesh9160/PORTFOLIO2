@@ -90,49 +90,49 @@ export function Navbar() {
           <nav className="flex flex-col space-y-4 px-4 py-6">
             <Link
               href="/"
-              className="text-foreground/80 hover:text-primary transition-colors py-2"
+              className="text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="text-foreground/80 hover:text-primary transition-colors py-2"
+              className="text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
               About
             </Link>
             <Link
               href="/#skills"
-              className="text-foreground/80 hover:text-primary transition-colors py-2"
+              className="text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
               Skills
             </Link>
             <Link
               href="/projects"
-              className="text-foreground/80 hover:text-primary transition-colors py-2"
+              className="text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
               Projects
             </Link>
             <Link
               href="/services"
-              className="text-foreground/80 hover:text-primary transition-colors py-2"
+              className="text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
               Services
             </Link>
             <Link
               href="/about#education"
-              className="text-foreground/80 hover:text-primary transition-colors py-2"
+              className="text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
               Education
             </Link>
             <Link
               href="/contact"
-              className="text-foreground/80 hover:text-primary transition-colors py-2"
+              className="text-foreground hover:text-primary transition-colors py-2"
               onClick={() => setIsOpen(false)}
             >
               Contact

@@ -15,7 +15,7 @@ const achievements = [
 
 export default function About() {
   return (
-    <div className="min-h-screen py-16 bg-gradient-to-br from-blue-50/50 via-white to-purple-50/50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
+    <div className="min-h-screen py-16 bg-gradient-to-br from-background via-background to-muted/20">
       <div className="container mx-auto px-4">
         <motion.div
           className="max-w-4xl mx-auto"
