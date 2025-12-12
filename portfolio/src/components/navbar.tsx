@@ -4,6 +4,7 @@ import Link from "next/link"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -21,6 +22,7 @@ export function Navbar() {
 
         {/* Desktop Navigation */}
         <div className="flex flex-1 items-center justify-end">
+          <ThemeToggle />
           <nav className="hidden sm:flex items-center space-x-6 text-sm font-semibold">
             <Link
               href="/"
@@ -82,6 +84,9 @@ export function Navbar() {
       {/* Mobile Navigation */}
       {isOpen && (
         <div className="sm:hidden border-t bg-background/95 backdrop-blur-md">
+          <div className="flex justify-center px-4 py-2">
+            <ThemeToggle />
+          </div>
           <nav className="flex flex-col space-y-4 px-4 py-6">
             <Link
               href="/"
