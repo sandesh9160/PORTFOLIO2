@@ -102,7 +102,7 @@ export default function Home() {
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="py-16 relative overflow-hidden bg-white/70 backdrop-blur-sm">
+      <section id="skills" className="py-16 relative overflow-hidden bg-card/50 backdrop-blur-sm dark:bg-card/30">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-500/5 via-purple-500/5 to-pink-500/5"></div>
         <div className="container mx-auto px-4 relative">
           <motion.div
@@ -187,12 +187,12 @@ export default function Home() {
       <DMBanner />
 
       {/* Services & Skills Overview */}
-      <section className="py-20 bg-gradient-to-br from-purple-50/40 via-white to-indigo-50/40 relative overflow-hidden">
+      <section className="py-20 bg-gradient-to-br from-card/20 via-background to-muted/20 relative overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-10 left-10 w-32 h-32 border border-purple-300 rounded-full"></div>
-          <div className="absolute top-40 right-20 w-24 h-24 border border-indigo-300 rounded-lg rotate-45"></div>
-          <div className="absolute bottom-20 left-1/4 w-20 h-20 border border-purple-400 rounded-full"></div>
+          <div className="absolute top-10 left-10 w-32 h-32 border border-primary/30 rounded-full"></div>
+          <div className="absolute top-40 right-20 w-24 h-24 border border-primary/20 rounded-lg rotate-45"></div>
+          <div className="absolute bottom-20 left-1/4 w-20 h-20 border border-primary/40 rounded-full"></div>
         </div>
 
         <div className="container mx-auto px-4 relative">
@@ -203,14 +203,14 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-purple-100 border border-purple-200 mb-6">
-              <Code className="h-5 w-5 text-purple-600" />
-              <span className="text-purple-600 font-medium">What I Offer</span>
+            <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary/10 border border-primary/20 mb-6">
+              <Code className="h-5 w-5 text-primary" />
+              <span className="text-primary font-medium">What I Offer</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-purple-600">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Professional Services & Skills
             </h2>
-            <p className="text-xl text-purple-500 max-w-4xl mx-auto font-medium leading-relaxed">
+            <p className="text-xl text-muted-foreground max-w-4xl mx-auto font-medium leading-relaxed">
               Expert Python development services with comprehensive expertise in modern web technologies and data analytics
             </p>
           </motion.div>
@@ -223,7 +223,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-3xl font-bold text-center mb-12 text-purple-600">🚀 Services</h3>
+            <h3 className="text-3xl font-bold text-center mb-12 text-foreground">🚀 Services</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <motion.div
                 className="group"
@@ -232,17 +232,17 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 viewport={{ once: true }}
               >
-                <Card className="h-full border-purple-200 hover:border-purple-400 transition-all duration-300 hover:shadow-xl hover:shadow-purple-100 group-hover:scale-105">
+                <Card className="h-full border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl group-hover:scale-105">
                   <CardHeader className="text-center pb-4">
-                    <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                      <Zap className="h-8 w-8 text-white" />
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary/80 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <Zap className="h-8 w-8 text-primary-foreground" />
                     </div>
-                    <CardTitle className="text-lg text-purple-600 group-hover:text-purple-700 transition-colors">
+                    <CardTitle className="text-lg text-foreground">
                       Full-Stack Web Development
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-center text-purple-500 text-sm leading-relaxed">
+                    <p className="text-center text-muted-foreground text-sm leading-relaxed">
                       Complete web applications using Django, React, and modern frameworks for scalable solutions
                     </p>
                   </CardContent>
@@ -256,17 +256,17 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 viewport={{ once: true }}
               >
-                <Card className="h-full border-purple-200 hover:border-purple-400 transition-all duration-300 hover:shadow-xl hover:shadow-purple-100 group-hover:scale-105">
+                <Card className="h-full border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl group-hover:scale-105">
                   <CardHeader className="text-center pb-4">
-                    <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                      <Database className="h-8 w-8 text-white" />
+                    <div className="w-16 h-16 bg-gradient-to-br from-secondary to-secondary/80 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <Database className="h-8 w-8 text-secondary-foreground" />
                     </div>
-                    <CardTitle className="text-lg text-purple-600 group-hover:text-purple-700 transition-colors">
+                    <CardTitle className="text-lg text-foreground">
                       API Development
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-center text-purple-500 text-sm leading-relaxed">
+                    <p className="text-center text-muted-foreground text-sm leading-relaxed">
                       RESTful APIs with Django REST Framework and comprehensive documentation
                     </p>
                   </CardContent>
@@ -280,17 +280,17 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                <Card className="h-full border-purple-200 hover:border-purple-400 transition-all duration-300 hover:shadow-xl hover:shadow-purple-100 group-hover:scale-105">
+                <Card className="h-full border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl group-hover:scale-105">
                   <CardHeader className="text-center pb-4">
-                    <div className="w-16 h-16 bg-gradient-to-br from-violet-500 to-violet-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                      <Cloud className="h-8 w-8 text-white" />
+                    <div className="w-16 h-16 bg-gradient-to-br from-accent to-accent/80 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <Cloud className="h-8 w-8 text-accent-foreground" />
                     </div>
-                    <CardTitle className="text-lg text-purple-600 group-hover:text-purple-700 transition-colors">
+                    <CardTitle className="text-lg text-foreground">
                       Database Design
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-center text-purple-500 text-sm leading-relaxed">
+                    <p className="text-center text-muted-foreground text-sm leading-relaxed">
                       MySQL and PostgreSQL database architecture and performance optimization
                     </p>
                   </CardContent>
@@ -304,17 +304,17 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 viewport={{ once: true }}
               >
-                <Card className="h-full border-purple-200 hover:border-purple-400 transition-all duration-300 hover:shadow-xl hover:shadow-purple-100 group-hover:scale-105">
+                <Card className="h-full border-border hover:border-primary/50 transition-all duration-300 hover:shadow-xl group-hover:scale-105">
                   <CardHeader className="text-center pb-4">
-                    <div className="w-16 h-16 bg-gradient-to-br from-fuchsia-500 to-fuchsia-600 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                      <Code className="h-8 w-8 text-white" />
+                    <div className="w-16 h-16 bg-gradient-to-br from-muted to-muted/80 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                      <Code className="h-8 w-8 text-muted-foreground" />
                     </div>
-                    <CardTitle className="text-lg text-purple-600 group-hover:text-purple-700 transition-colors">
+                    <CardTitle className="text-lg text-foreground">
                       Cloud Deployment
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-center text-purple-500 text-sm leading-relaxed">
+                    <p className="text-center text-muted-foreground text-sm leading-relaxed">
                       AWS deployment with EC2, S3, and scalable cloud architecture solutions
                     </p>
                   </CardContent>
@@ -330,7 +330,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-3xl font-bold text-center mb-12 text-purple-600">💡 Key Skills</h3>
+            <h3 className="text-3xl font-bold text-center mb-12 text-foreground">💡 Key Skills</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <motion.div
                 initial={{ opacity: 0, x: -30 }}
@@ -338,22 +338,22 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 viewport={{ once: true }}
               >
-                <Card className="border-purple-200 hover:border-purple-400 transition-all duration-300 hover:shadow-lg">
+                <Card className="border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg">
                   <CardHeader className="flex flex-row items-center gap-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
                       <Code className="h-6 w-6 text-white" />
                     </div>
                     <div>
-                      <CardTitle className="text-xl text-purple-600">Backend Development</CardTitle>
-                      <p className="text-sm text-purple-500">Server-side expertise</p>
+                      <CardTitle className="text-xl text-foreground">Backend Development</CardTitle>
+                      <p className="text-sm text-muted-foreground">Server-side expertise</p>
                     </div>
                   </CardHeader>
                   <CardContent>
                     <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">Python</span>
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">Django</span>
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">DRF</span>
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">FastAPI</span>
+                      <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Python</span>
+                      <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">Django</span>
+                      <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">DRF</span>
+                      <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">FastAPI</span>
                     </div>
                   </CardContent>
                 </Card>
@@ -365,22 +365,22 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 viewport={{ once: true }}
               >
-                <Card className="border-purple-200 hover:border-purple-400 transition-all duration-300 hover:shadow-lg">
+                <Card className="border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg">
                   <CardHeader className="flex flex-row items-center gap-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center">
                       <Sparkles className="h-6 w-6 text-white" />
                     </div>
                     <div>
-                      <CardTitle className="text-xl text-purple-600">Frontend Technologies</CardTitle>
-                      <p className="text-sm text-purple-500">Client-side development</p>
+                      <CardTitle className="text-xl text-foreground">Frontend Technologies</CardTitle>
+                      <p className="text-sm text-muted-foreground">Client-side development</p>
                     </div>
                   </CardHeader>
                   <CardContent>
                     <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">React</span>
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">JavaScript</span>
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">Tailwind</span>
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">Bootstrap</span>
+                      <span className="px-3 py-1 bg-secondary/20 text-secondary-foreground rounded-full text-sm font-medium">React</span>
+                      <span className="px-3 py-1 bg-secondary/20 text-secondary-foreground rounded-full text-sm font-medium">JavaScript</span>
+                      <span className="px-3 py-1 bg-secondary/20 text-secondary-foreground rounded-full text-sm font-medium">Tailwind</span>
+                      <span className="px-3 py-1 bg-secondary/20 text-secondary-foreground rounded-full text-sm font-medium">Bootstrap</span>
                     </div>
                   </CardContent>
                 </Card>
@@ -392,22 +392,22 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                <Card className="border-purple-200 hover:border-purple-400 transition-all duration-300 hover:shadow-lg">
+                <Card className="border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg">
                   <CardHeader className="flex flex-row items-center gap-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-cyan-600 rounded-xl flex items-center justify-center">
                       <Database className="h-6 w-6 text-white" />
                     </div>
                     <div>
-                      <CardTitle className="text-xl text-purple-600">Database & Tools</CardTitle>
-                      <p className="text-sm text-purple-500">Data & DevOps expertise</p>
+                      <CardTitle className="text-xl text-foreground">Database & Tools</CardTitle>
+                      <p className="text-sm text-muted-foreground">Data & DevOps expertise</p>
                     </div>
                   </CardHeader>
                   <CardContent>
                     <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">MySQL</span>
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">PostgreSQL</span>
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">AWS</span>
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">Docker</span>
+                      <span className="px-3 py-1 bg-accent/20 text-accent-foreground rounded-full text-sm font-medium">MySQL</span>
+                      <span className="px-3 py-1 bg-accent/20 text-accent-foreground rounded-full text-sm font-medium">PostgreSQL</span>
+                      <span className="px-3 py-1 bg-accent/20 text-accent-foreground rounded-full text-sm font-medium">AWS</span>
+                      <span className="px-3 py-1 bg-accent/20 text-accent-foreground rounded-full text-sm font-medium">Docker</span>
                     </div>
                   </CardContent>
                 </Card>
@@ -419,22 +419,22 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 viewport={{ once: true }}
               >
-                <Card className="border-purple-200 hover:border-purple-400 transition-all duration-300 hover:shadow-lg">
+                <Card className="border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg">
                   <CardHeader className="flex flex-row items-center gap-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center">
                       <Zap className="h-6 w-6 text-white" />
                     </div>
                     <div>
-                      <CardTitle className="text-xl text-purple-600">Data Analytics</CardTitle>
-                      <p className="text-sm text-purple-500">Business intelligence</p>
+                      <CardTitle className="text-xl text-foreground">Data Analytics</CardTitle>
+                      <p className="text-sm text-muted-foreground">Business intelligence</p>
                     </div>
                   </CardHeader>
                   <CardContent>
                     <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">Python</span>
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">Pandas</span>
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">Power BI</span>
-                      <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">Tableau</span>
+                      <span className="px-3 py-1 bg-muted/30 text-muted-foreground rounded-full text-sm font-medium">Python</span>
+                      <span className="px-3 py-1 bg-muted/30 text-muted-foreground rounded-full text-sm font-medium">Pandas</span>
+                      <span className="px-3 py-1 bg-muted/30 text-muted-foreground rounded-full text-sm font-medium">Power BI</span>
+                      <span className="px-3 py-1 bg-muted/30 text-muted-foreground rounded-full text-sm font-medium">Tableau</span>
                     </div>
                   </CardContent>
                 </Card>
@@ -450,18 +450,18 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <div className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-100 to-indigo-100 border border-purple-200 mb-8">
-              <div className="w-3 h-3 bg-purple-500 rounded-full animate-pulse"></div>
-              <span className="text-purple-600 font-medium">Ready to bring your ideas to life?</span>
+            <div className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-primary/10 border border-primary/20 mb-8">
+              <div className="w-3 h-3 bg-primary rounded-full animate-pulse"></div>
+              <span className="text-primary font-medium">Ready to bring your ideas to life?</span>
             </div>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button asChild size="lg" className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white shadow-lg hover:shadow-xl transition-all duration-300">
+              <Button asChild size="lg" className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white shadow-lg hover:shadow-xl transition-all duration-300">
                 <Link href="/services" className="flex items-center gap-2">
                   <Zap className="h-5 w-5" />
                   View All Services
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-2 border-purple-500 text-purple-600 hover:bg-purple-50 hover:border-purple-600 transition-all duration-300">
+              <Button asChild variant="outline" size="lg" className="border-2 border-primary text-primary hover:bg-primary/5 hover:border-primary/80 transition-all duration-300">
                 <Link href="/#skills" className="flex items-center gap-2">
                   <Sparkles className="h-5 w-5" />
                   Explore Skills
@@ -473,11 +473,11 @@ export default function Home() {
       </section>
 
       {/* Education Preview Section */}
-      <section className="py-20 bg-gradient-to-br from-green-50/40 via-white to-blue-50/40 relative overflow-hidden">
+      <section className="py-20 bg-gradient-to-br from-secondary/10 via-background to-accent/10 relative overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-20 left-20 w-24 h-24 border border-green-300 rounded-full"></div>
-          <div className="absolute bottom-20 right-20 w-32 h-32 border border-blue-300 rounded-lg rotate-45"></div>
+          <div className="absolute top-20 left-20 w-24 h-24 border border-secondary/30 rounded-full"></div>
+          <div className="absolute bottom-20 right-20 w-32 h-32 border border-accent/30 rounded-lg rotate-45"></div>
         </div>
 
         <div className="container mx-auto px-4 relative">
@@ -488,14 +488,14 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-green-100 border border-green-200 mb-6">
-              <GraduationCap className="h-5 w-5 text-green-600" />
-              <span className="text-green-600 font-medium">Academic Journey</span>
+            <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-secondary/20 border border-secondary/30 mb-6">
+              <GraduationCap className="h-5 w-5 text-secondary-foreground" />
+              <span className="text-secondary-foreground font-medium">Academic Journey</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-green-600">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Education & Certifications
             </h2>
-            <p className="text-xl text-green-500 max-w-4xl mx-auto font-medium leading-relaxed">
+            <p className="text-xl text-muted-foreground max-w-4xl mx-auto font-medium leading-relaxed">
               Building expertise through comprehensive education and recognized certifications in technology
             </p>
           </motion.div>
@@ -755,11 +755,11 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <div className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-green-100 to-blue-100 border border-green-200 mb-8">
-              <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-              <span className="text-green-600 font-medium">Explore my complete educational background</span>
+            <div className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl bg-secondary/20 border border-secondary/30 mb-8">
+              <div className="w-3 h-3 bg-secondary rounded-full animate-pulse"></div>
+              <span className="text-secondary-foreground font-medium">Explore my complete educational background</span>
             </div>
-            <Button asChild size="lg" className="bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white shadow-lg hover:shadow-xl transition-all duration-300">
+            <Button asChild size="lg" className="bg-gradient-to-r from-secondary to-accent hover:from-secondary/90 hover:to-accent/90 text-white shadow-lg hover:shadow-xl transition-all duration-300">
               <Link href="/about#education" className="flex items-center gap-2">
                 <GraduationCap className="h-5 w-5" />
                 View Full Education
