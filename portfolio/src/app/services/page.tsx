@@ -168,13 +168,13 @@ export default function Services() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Why Choose My Services?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">Why Choose My Services?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-8">
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Star className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Quality First</h3>
+              <h3 className="text-xl font-semibold mb-2 text-foreground">Quality First</h3>
               <p className="text-muted-foreground">
                 Clean, maintainable code with modern best practices and thorough testing.
               </p>
@@ -183,7 +183,7 @@ export default function Services() {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Zap className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Fast Delivery</h3>
+              <h3 className="text-xl font-semibold mb-2 text-foreground">Fast Delivery</h3>
               <p className="text-muted-foreground">
                 Efficient development process with regular updates and timely delivery.
               </p>
@@ -192,7 +192,7 @@ export default function Services() {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Crown className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Full Support</h3>
+              <h3 className="text-xl font-semibold mb-2 text-foreground">Full Support</h3>
               <p className="text-muted-foreground">
                 Comprehensive support during and after development for your peace of mind.
               </p>
@@ -208,7 +208,7 @@ export default function Services() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Ready to Get Started?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">Ready to Get Started?</h2>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
             Let's discuss your project requirements and find the perfect package for your needs.
           </p>

@@ -72,13 +72,13 @@ export default function About() {
                 <p className="text-muted-foreground">Python Full Stack Developer</p>
               </CardHeader>
               <CardContent className="space-y-6">
-                <p className="text-lg leading-relaxed">
+                <p className="text-lg text-foreground leading-relaxed">
                   I'm Sandesh Kenchugundi, a passionate Python Full-Stack Developer based in Hyderabad, India. With expertise in Django, Django REST Framework, and MySQL, I specialize in crafting scalable web applications that deliver exceptional user experiences. My skills extend to responsive UI design, REST API development, and cloud deployment on AWS, ensuring robust and efficient solutions for businesses.
                 </p>
-                <p className="text-lg leading-relaxed">
+                <p className="text-lg text-foreground leading-relaxed">
                   As a freelancer, I'm dedicated to turning ideas into reality, providing end-to-end development services that drive results. Whether it's building a complete e-commerce platform, a content management system, or a custom web application, I bring technical excellence and creative problem-solving to every project.
                 </p>
-                <p className="text-lg leading-relaxed">
+                <p className="text-lg text-foreground leading-relaxed">
                   My approach combines technical proficiency with business acumen, ensuring that every solution not only works flawlessly but also contributes to your bottom line. I'm committed to delivering high-quality, maintainable code that stands the test of time.
                 </p>
               </CardContent>
@@ -154,7 +154,7 @@ export default function About() {
                       transition={{ delay: 1.2 + index * 0.1, duration: 0.4 }}
                     >
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                      <span>{achievement}</span>
+                      <span className="text-foreground">{achievement}</span>
                     </motion.li>
                   ))}
                 </ul>

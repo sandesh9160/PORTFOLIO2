@@ -103,7 +103,7 @@ export default function Contact() {
                     <Mail className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Email</h3>
+                    <h3 className="font-semibold mb-1 text-foreground">Email</h3>
                     <p className="text-muted-foreground">sandeshkenchugundi01@gmail.com</p>
                     <p className="text-sm text-muted-foreground mt-1">
                       I'll respond within 24 hours
@@ -116,7 +116,7 @@ export default function Contact() {
                     <Phone className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Phone</h3>
+                    <h3 className="font-semibold mb-1 text-foreground">Phone</h3>
                     <p className="text-muted-foreground">+91 9160903500</p>
                     <p className="text-sm text-muted-foreground mt-1">
                       Available for calls and WhatsApp
@@ -129,7 +129,7 @@ export default function Contact() {
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Location</h3>
+                    <h3 className="font-semibold mb-1 text-foreground">Location</h3>
                     <p className="text-muted-foreground">Hyderabad, Telangana, India</p>
                     <p className="text-sm text-muted-foreground mt-1">
                       Open to remote work worldwide

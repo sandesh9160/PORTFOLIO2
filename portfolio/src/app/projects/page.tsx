@@ -137,7 +137,7 @@ export default function Projects() {
                 <CardContent className="p-8 space-y-8">
                   {/* Background */}
                   <div>
-                    <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">
+                    <h3 className="text-xl font-semibold mb-3 flex items-center gap-2 text-foreground">
                       <Users className="h-5 w-5 text-primary" />
                       Client Background
                     </h3>
@@ -146,7 +146,7 @@ export default function Projects() {
 
                   {/* Problem */}
                   <div>
-                    <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">
+                    <h3 className="text-xl font-semibold mb-3 flex items-center gap-2 text-foreground">
                       <Target className="h-5 w-5 text-foreground" />
                       Business Problem
                     </h3>
@@ -155,7 +155,7 @@ export default function Projects() {
 
                   {/* Solution */}
                   <div>
-                    <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">
+                    <h3 className="text-xl font-semibold mb-3 flex items-center gap-2 text-foreground">
                       <CheckCircle className="h-5 w-5 text-foreground" />
                       Solution Provided
                     </h3>
@@ -164,7 +164,7 @@ export default function Projects() {
 
                   {/* Features */}
                   <div>
-                    <h3 className="text-xl font-semibold mb-4">Key Features</h3>
+                    <h3 className="text-xl font-semibold mb-4 text-foreground">Key Features</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                       {project.features.map((feature, idx) => (
                         <div key={idx} className="flex items-start gap-3">
@@ -177,7 +177,7 @@ export default function Projects() {
 
                   {/* Technologies */}
                   <div>
-                    <h3 className="text-xl font-semibold mb-4">Technologies Used</h3>
+                    <h3 className="text-xl font-semibold mb-4 text-foreground">Technologies Used</h3>
                     <div className="flex flex-wrap gap-2">
                       {project.technologies.map((tech) => (
                         <Badge key={tech} variant="outline">
@@ -189,7 +189,7 @@ export default function Projects() {
 
                   {/* Impact */}
                   <div>
-                    <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
+                    <h3 className="text-xl font-semibold mb-4 flex items-center gap-2 text-foreground">
                       <TrendingUp className="h-5 w-5 text-foreground" />
                       Business Impact
                     </h3>
@@ -225,7 +225,7 @@ export default function Projects() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Ready to Start Your Project?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">Ready to Start Your Project?</h2>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
             Let's discuss how I can help bring your ideas to life with scalable, high-quality web solutions.
           </p>
