@@ -94,7 +94,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="min-h-screen py-16 bg-gradient-to-br from-green-50/50 via-white to-blue-50/50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
+    <div className="min-h-screen py-16 bg-gradient-to-br from-background via-background to-muted/20">
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-16"
@@ -147,7 +147,7 @@ export default function Projects() {
                   {/* Problem */}
                   <div>
                     <h3 className="text-xl font-semibold mb-3 flex items-center gap-2 text-foreground">
-                      <Target className="h-5 w-5 text-foreground" />
+                      <Target className="h-5 w-5 text-primary" />
                       Business Problem
                     </h3>
                     <p className="text-muted-foreground leading-relaxed">{project.problem}</p>
@@ -156,7 +156,7 @@ export default function Projects() {
                   {/* Solution */}
                   <div>
                     <h3 className="text-xl font-semibold mb-3 flex items-center gap-2 text-foreground">
-                      <CheckCircle className="h-5 w-5 text-foreground" />
+                      <CheckCircle className="h-5 w-5 text-primary" />
                       Solution Provided
                     </h3>
                     <p className="text-muted-foreground leading-relaxed">{project.solution}</p>
@@ -168,7 +168,7 @@ export default function Projects() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                       {project.features.map((feature, idx) => (
                         <div key={idx} className="flex items-start gap-3">
-                          <CheckCircle className="h-5 w-5 text-foreground mt-0.5 flex-shrink-0" />
+                          <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                           <span className="text-muted-foreground">{feature}</span>
                         </div>
                       ))}
@@ -190,13 +190,13 @@ export default function Projects() {
                   {/* Impact */}
                   <div>
                     <h3 className="text-xl font-semibold mb-4 flex items-center gap-2 text-foreground">
-                      <TrendingUp className="h-5 w-5 text-foreground" />
+                      <TrendingUp className="h-5 w-5 text-primary" />
                       Business Impact
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                       {project.impact.map((impact, idx) => (
                         <div key={idx} className="flex items-start gap-3">
-                          <TrendingUp className="h-5 w-5 text-foreground mt-0.5 flex-shrink-0" />
+                          <TrendingUp className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                           <span className="text-muted-foreground">{impact}</span>
                         </div>
                       ))}

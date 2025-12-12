@@ -17,7 +17,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="min-h-screen py-16 bg-gradient-to-br from-orange-50/50 via-white to-red-50/50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
+    <div className="min-h-screen py-16 bg-gradient-to-br from-background via-background to-muted/20">
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-16"
