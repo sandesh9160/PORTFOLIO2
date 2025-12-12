@@ -455,7 +455,7 @@ export default function Home() {
               <span className="text-primary font-medium">Ready to bring your ideas to life?</span>
             </div>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button asChild size="lg" className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white shadow-lg hover:shadow-xl transition-all duration-300">
+              <Button asChild size="lg" className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300">
                 <Link href="/services" className="flex items-center gap-2">
                   <Zap className="h-5 w-5" />
                   View All Services
@@ -759,7 +759,7 @@ export default function Home() {
               <div className="w-3 h-3 bg-secondary rounded-full animate-pulse"></div>
               <span className="text-secondary-foreground font-medium">Explore my complete educational background</span>
             </div>
-            <Button asChild size="lg" className="bg-gradient-to-r from-secondary to-accent hover:from-secondary/90 hover:to-accent/90 text-white shadow-lg hover:shadow-xl transition-all duration-300">
+            <Button asChild size="lg" className="bg-gradient-to-r from-secondary to-accent hover:from-secondary/90 hover:to-accent/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300">
               <Link href="/about#education" className="flex items-center gap-2">
                 <GraduationCap className="h-5 w-5" />
                 View Full Education
